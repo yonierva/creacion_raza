@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creacion de razas</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="form" class="form">
+            <h1 class="title">creacion de razas</h1>
+            <form action="">
+                <label for="nombre">ingresa el nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="edad">ingresa la edad</label><br>
+                <input type="number" name="edad" id="edad"><br>
+                <label for="raza">seleccione la raza</label><br>
+                <select name="raza" id="raza">
+                    <option value="humano">humano</option>
+                    <option value="enano">enano</option>
+                    <option value="ogro">ogro</option>
+                    <option value="elfo">elfo</option>
+                </select><br>
+                <button type="submit" class="button">enviar</button>
+            </form>
+        </div>
+        <div id="lista" class="lista">
+
+        </div>
+    </div>
+    
+
+<script src="../js/creacion_raza.js"></script>
+</body>
+</html>
